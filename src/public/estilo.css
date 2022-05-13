@@ -1,0 +1,125 @@
+nav h1
+{
+    
+    text-align: center;
+    color: rgba(244, 246, 247, 0.789);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: xx-large;
+
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+header{
+    margin: 0em;
+}
+
+body footer,
+body section
+{
+    background-color: rgba(25, 40, 168, 0.644);
+    margin: auto;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+
+body nav .navbar-dark
+{
+    background-color: black;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-family: fantasy;
+    font-style: oblique;
+    font-size: medium;
+    color: rgba(0, 255, 255, 0.562);
+}
+
+.producto
+{
+    width: 190px;
+    height: 220px;
+}
+
+.carousel-inner #iniciales
+{
+    width: 100px;
+    height: 800px;
+}
+
+table{
+
+    width: 100px;
+    margin: 0 auto;
+}
+
+table td:before,
+table td:after {
+    content: "";
+    display: block;
+    height: 35px;
+  }
+
+table tr td img{
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 5px solid #000000;  
+}
+
+.saldo
+{
+    border-radius: 20px 20px 20px 20px;
+    border: 2px solid #000000;  
+}
+
+.cheque
+{
+    border-radius: 20px 20px 20px 20px;
+    border: #109f6d7d;
+    display: table;
+    margin: auto;
+    margin-top: 150px;
+    width: 500px;
+    height: 250px;
+}
+
+.movimientos
+{
+    border-radius: 20px 20px 20px 20px;
+    border: #109f6d7d;
+    display: table;
+    margin: auto;
+    margin-top: 150px;
+    width: auto;
+    height: 300px;
+}
+
+.movimientos th{
+    width: 150px;
+}
+
+th .fechacol{
+    width: 200px;
+}
+
+.che
+{
+    margin-top: 5px;
+}
+
+body
+{
+    background-image: url("https://estaticos-cdn.elperiodico.com/clip/35de3ba0-0aed-4023-a515-8e7ae86c1c04_alta-libre-aspect-ratio_default_0.jpg");
+    text-align: center;
+    background-size: 1710px 900px;
+    width: 1710px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: center;
+}
